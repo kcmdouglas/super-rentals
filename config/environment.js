@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'rentals',
     environment: environment,
+    firebase: 'https://shining-heat-9390.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
