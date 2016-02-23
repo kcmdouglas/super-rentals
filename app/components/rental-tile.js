@@ -5,10 +5,10 @@ export default Ember.Component.extend({
   actions: {
     imageShow: function() {
       this.set('isImageShowing', true);
-    }
+    },
     imageHide: function() {
       this.set('isImageShowing', false);
-    }
+    },
     update(rental,params) {
       this.sendAction('update', rental, params);
     },
